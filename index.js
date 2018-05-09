@@ -5,3 +5,6 @@ function destructivelyAppendKitten(n) {
   return kittens.push(n);
 }
 
+function destructivelyPrependKitten(n) {
+  return kittens.push(n);
+}
