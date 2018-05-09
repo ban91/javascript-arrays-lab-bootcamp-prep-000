@@ -24,3 +24,10 @@ function appendKitten(n) {
 function prependKitten(n) {
   return [n, ...kittens];
 }
+
+function removeLastKitten() {
+  return [...kittens, n];
+}
+function removeFirstKitten() {
+  return kittens.slice(1);
+}
