@@ -8,3 +8,7 @@ function destructivelyAppendKitten(n) {
 function destructivelyPrependKitten(n) {
   return kittens.unshift(n);
 }
+
+function destructivelyRemoveLastKitten() {
+  return kittens.push();
+}
